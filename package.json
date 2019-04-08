@@ -1,0 +1,26 @@
+{
+  "name": "webtesting-i-challenge-jon-palacio",
+  "version": "1.0.0",
+  "description": "TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bangarangler/webtesting-i-challenge-jon-palacio.git"
+  },
+  "keywords": [
+    "Test",
+    "Testing"
+  ],
+  "author": "JP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bangarangler/webtesting-i-challenge-jon-palacio/issues"
+  },
+  "homepage": "https://github.com/bangarangler/webtesting-i-challenge-jon-palacio#readme",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
