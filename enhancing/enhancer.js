@@ -12,6 +12,15 @@ const item = {
 };
 
 function succeed(item) {
+  if (item.enhancement < 20) {
+    item.enhancement++;
+    return item;
+  } else if (item.enhancement > 20) {
+    item.enhancement = 20;
+  } else {
+    item.enhancement;
+    return item;
+  }
   return { ...item };
 }
 

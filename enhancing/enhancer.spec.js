@@ -16,7 +16,7 @@ const sword = {
 const helmet = {
   name: "helmet",
   durability: 99,
-  enhancement: 0
+  enhancement: 25
 };
 
 describe("repair function", () => {
@@ -35,6 +35,12 @@ describe("repair function", () => {
 describe("succeed funstion", () => {
   // TEST CASE
   it(`return enhanced item`, () => {
+    let enhanceStaff = enhancer.succeed(staff);
+    let enhanceSword = enhancer.succeed(sword);
+    let enhanceHelmet = enhancer.succeed(helmet);
     // ASSERTIONS
+    expect(enhanceStaff.enhancement).toEqual(9);
+    expect(enhanceSword.enhancement).toEqual(20);
+    expect(enhanceHelmet.enhancement).toEqual(20);
   });
 });
